@@ -8,7 +8,7 @@ services:
             - $PWD/data/redis:/data
 
     oj_mysql:
-        image: registry.cn-hangzhou.aliyuncs.com/qduoj/mysql
+        image: myoj/mysql
         container_name: oj_mysql
         restart: always
         volumes:
@@ -17,7 +17,7 @@ services:
             - MYSQL_ROOT_PASSWORD=MYSQL_PASSWORD_AAA
 
     judger:
-        image: registry.cn-hangzhou.aliyuncs.com/qduoj/judger
+        image: myoj/judger
         container_name: judger
         restart: always
         volumes:
@@ -28,7 +28,7 @@ services:
             - rpc_token={YOUR_PASSWORD}
 
     oj_web_server:
-        image: registry.cn-hangzhou.aliyuncs.com/qduoj/oj_web_server
+        image: myoj/oj_web_server
         container_name: oj_web_server
         restart: always
         links:
