@@ -47,5 +47,5 @@ services:
             - MYSQL_ENV_MYSQL_USER=root
             - MYSQL_ENV_MYSQL_ROOT_PASSWORD=MYSQL_PASSWORD_AAA
         ports:
-            - "0.0.0.0:1080:80"
+            - "0.0.0.0:1111:80"
             - "0.0.0.0:443:443"
