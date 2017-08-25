@@ -5,6 +5,8 @@
  - 必要的工具 `apt-get update && apt-get install -y vim python-pip curl git`
  - 安装 docker `curl -sSL https://get.daocloud.io/docker | sh`
  - 安装 docker-compose `LC_CTYPE= pip install docker-compose`
+ - $ sudo curl -L https://github.com/docker/compose/releases/download/1.8.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+- $ sudo chmod a+x /usr/local/bin/docker-compose
 
 ## 准备安装文件
 
@@ -16,7 +18,7 @@
 
 ## 启动服务
 
-运行 `docker-compose up -d` ，不需要其他的步骤，大约一分钟之后 web 界面就可以访问了，默认开放80和443端口。其中443端口是自签名证书。
+运行 `docker-compose up -d` ，不需要其他的步骤，大约一分钟之后 web 界面就可以访问了，默认开放1111和443端口。其中443端口是自签名证书。
 
 ## 这就结束了
 
