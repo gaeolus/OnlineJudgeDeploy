@@ -2,9 +2,9 @@
 import os
 
 
-WEBSITE_INFO = {"website_name": u"example1大学 OnlineJudge",
-                "website_name_shortcut": u"example oj",
-                "website_footer": u"example大学foobar学院 <a href=\"http://www.miibeian.gov.cn/\">京ICP备233333号-1</a>",
+WEBSITE_INFO = {"website_name": u"SJTU大学 OnlineJudge",
+                "website_name_shortcut": u"JI oj",
+                "website_footer": u"SJTU大学JI学院 <a href=\"http://www.sjtu.edu.cn/\">沪ICP备233333号-1</a>",
                 # url结尾没有/
                 "url": u"http://your-domain-or-ip.com"}
 
