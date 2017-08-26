@@ -1,5 +1,7 @@
 https://yeasy.gitbooks.io/docker_practice/content/introduction/what.html
 
+docker run --rm -v /usr/local/bin:/target jpetazzo/nsenter
+
 ## 安装基础环境
 
 以下命令都需要 root 用户身份运行，请自行添加 `sudo`
